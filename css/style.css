@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141C24;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  text-align: center;
+  padding: 30px;
+  width: 80vw;
+  margin: auto;
+  color:white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:verdana;
+  text-transform: uppercase;
+}
+
+.box {
+  padding: 10px;
+  margin: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: #348CEC;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.btn:hover{
+  background-color: #04AC7C;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+/* Estilos del footer*/
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 40px;
+  background-color: white;
+}
+
+.footer-text-left {
+  font-size:13px;
+  padding-left:40px;
+  float:left;
+  word-spacing:0px;
+}
+
+.menu:hover {
+  background-color:skyblue;
+  font-size:13px;
+}
+
+.menu {
+color: #141C24;
+}
+
+.footer-content-right {
+  padding-right:40px;
+  margin-top:0px;
+  float:right;
+}
+
+.icon-style {
+  height:30px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color: skyblue;
+  padding:5px;
+  max-height: 100px;
+}
+
+#texto-encriptar, #texto-copiado{
+  color: #04AC7C;
+}
